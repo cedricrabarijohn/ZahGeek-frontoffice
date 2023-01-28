@@ -1,0 +1,9 @@
+:root {
+  --blue: #0040bd;
+  --grey: #222324;
+}
+.signup-forms{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

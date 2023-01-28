@@ -1,0 +1,52 @@
+:root {
+  --blue: #0040bd;
+  --grey: #222324;
+}
+
+.signup-wrapper {
+  background-color: var(--grey);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 150px;
+  color: white;
+}
+.signup-title {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+@media screen and (min-width: 800px) {
+  .signup-title {
+    font-size: 50px;
+  }
+}
+.signup-description {
+  text-align: center;
+  max-width: 50%;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+}
+@media screen and (min-width: 800px) {
+  .signup-description {
+    font-size: 16px;
+    max-width: 450px;
+  }
+}
+.already-signed-up {
+  cursor: pointer;
+  color: grey;
+  text-decoration: underline;
+  user-select: none;
+  display: inline-block;
+  transition: all .2s linear;
+}
+
+.already-signed-up:hover {
+  color: var(--blue);
+}
+.signup-forms {
+  margin-top: 100px;
+}

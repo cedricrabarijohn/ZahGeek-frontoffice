@@ -1,0 +1,39 @@
+Formulaire d'inscription: VITA
+    - Nom
+    - Prenom
+    - Sexe
+    - Domicile
+    - Arrondissement
+    - Profession
+    - Numero CIN
+    - Lieu de creation du CIN
+    - Date de creation du CIN
+    - Date de naissance
+    - Lieu de naissance (Ville , departement, pays)
+    - Nom pere
+    - Prenom pere
+    - Profession pere
+    - Nom mere
+    - Prenom mere
+    - Profession mere
+    - Lieu de residence des parents
+    - Date d'etablissement de l'acte de naissance
+    - Numero d'enregistrement de l'acte de naissance
+    - Fichier pdf CIN
+    - Fichier pdf Acte de naissance
+
+Formulaire de login User VITA
+
+Formulaire de login Admin
+
+Buts :  - demande d'acte de naissance, 
+        - demande de bulletin de naissance, 
+        - demande de certificats de residence,
+        - impots non payes
+
+Interface Admin :
+	- Generation d'acte de naissance
+	- Generation de bulletin de naissance
+	- Generation de certificat de residence
+	- Generation d'impots non payes
+    - Gestion des impots

@@ -1,0 +1,16 @@
+:root {
+    --blue: #0040bd;
+    --grey: #222324;
+  }
+  
+.not-found{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,11 @@
+.admin-wrapper{
+    background-color: #222324;
+    min-height: 100vh;
+    padding-top: 150px;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+}

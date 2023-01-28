@@ -1,0 +1,59 @@
+:root {
+  --blue: #0040bd;
+  --grey: #222324;
+}
+.disconnected-navbar {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  background: radial-gradient(at 50% 50%, var(--blue), var(--grey) 20%);
+  padding: 0 50px;
+  color: white;
+}
+@media screen and (max-width: 650px) {
+  .disconnected-navbar {
+    justify-content: center;
+  }
+}
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  user-select: none;
+}
+.nav-signup {
+  transition: all 0.2s linear;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.nav-signup:hover {
+  color: var(--blue);
+}
+.nav-signin {
+  margin-left: 50px;
+  border: 2px solid var(--blue);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  text-decoration: none;
+  color: white;
+}
+.nav-signin:hover {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.disconnected-navbar .nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
